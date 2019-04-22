@@ -22,6 +22,7 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'zchee/deoplete-go', {'build': 'make'}
   Plug 'Blackrush/vim-gocode'
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+  Plug 'pearofducks/ansible-vim', { 'do': 'cd ./UltiSnips; ./generate.py' }
 call plug#end()
 
 
@@ -89,3 +90,6 @@ let g:go_highlight_methods = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_structs = 1
 let g:go_highlight_types = 1
+
+
+" Ansible stuff
