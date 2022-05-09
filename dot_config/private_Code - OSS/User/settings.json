@@ -1,0 +1,36 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+    "window.zoomLevel": 2,
+    "editor.lineNumbers": "relative",
+
+    "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+    },
+    // Optional: Disable snippets, as they conflict with completion ranking.
+    "editor.snippetSuggestions": "none",
+  },
+  "[go.mod]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+    },
+  },
+  "gopls": {
+    "usePlaceholders": true, // Add parameter placeholders when completing a function.
+    "formatting.gofumpt": true, // Stricter than gofmt, we like strict
+    "formatting.local": "github.com/Walkbase",
+  },
+  "editor.fontFamily": "'GoMono Nerd Font Mono'",
+  "security.workspace.trust.untrustedFiles": "open",
+  "redhat.telemetry.enabled": true,
+  "vim.useCtrlKeys": false,
+  // Debugging.
+  // "go.languageServerFlags": [
+  //   "-rpc.trace", // For more detailed debug logging.
+  //   "serve",
+  //   "--debug=localhost:6060", // To investigate memory usage, see profiles.
+  // ],
+}

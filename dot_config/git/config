@@ -1,0 +1,22 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Anton Lindholm
+	email = LinAnt@users.noreply.github.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILgu6aGVmRQW1I/GqeE3niH3nBXIEPLPMxUrvwzQwNGG
+
+[url "git@github.com:Walkbase"]
+	insteadOf = https://github.com/Walkbase
+[url "git@github.com:LinAnt"]
+	insteadOf = https://github.com/LinAnt
+[core]
+	excludesfile = /Users/linant/.gitignore_global
+	editor = code --wait
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
