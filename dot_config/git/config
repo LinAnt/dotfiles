@@ -20,3 +20,5 @@
 	gpgsign = true
 [gpg]
 	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = /home/linant/.ssh/allowed_signers
