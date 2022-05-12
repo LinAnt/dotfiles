@@ -27,6 +27,9 @@
   "security.workspace.trust.untrustedFiles": "open",
   "redhat.telemetry.enabled": true,
   "vim.useCtrlKeys": false,
+  "vs-kubernetes": {
+    "vs-kubernetes.crd-code-completion": "disabled"
+  },
   // Debugging.
   // "go.languageServerFlags": [
   //   "-rpc.trace", // For more detailed debug logging.
