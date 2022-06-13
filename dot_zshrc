@@ -128,6 +128,16 @@ export VAULT_ADDR=https://127.0.0.1:8200
 export VAULT_SKIP_VERIFY=1
 export DOCKER_BUILDKIT=1
 
+
+alias java-decompile="docker run \
+	-ti \
+	--rm \
+	-v "$PWD/infiles:/infiles:Z,ro" \
+	-v "$PWD/libfiles:/libfiles:Z,ro" \
+	-v "$PWD/outfiles:/outfiles:Z,rw" \
+	ghcr.io/eikendev/java-decompiler:latest"
+
+alias docker="sudo docker"
 alias ckc="kubectx"
 alias ckn="kubens"
 alias shh='ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'
