@@ -11,7 +11,7 @@
 	insteadOf = https://github.com/LinAnt
 [core]
 	excludesfile = /Users/linant/.gitignore_global
-	editor = code --wait
+	editor = nvim
 [init]
 	defaultBranch = main
 [pull]
