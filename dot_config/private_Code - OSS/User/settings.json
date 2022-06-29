@@ -22,6 +22,7 @@
     "usePlaceholders": true, // Add parameter placeholders when completing a function.
     "formatting.gofumpt": true, // Stricter than gofmt, we like strict
     "formatting.local": "github.com/Walkbase",
+    "ui.semanticTokens": true
   },
   "editor.fontFamily": "'GoMono Nerd Font Mono'",
   "security.workspace.trust.untrustedFiles": "open",
@@ -38,6 +39,7 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "go.lintTool": "golangci-lint",
   // Debugging.
   // "go.languageServerFlags": [
   //   "-rpc.trace", // For more detailed debug logging.
