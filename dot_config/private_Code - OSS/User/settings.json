@@ -40,6 +40,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "go.lintTool": "golangci-lint",
+  "explorer.confirmDelete": false,
+  "editor.formatOnSave": true,
   // Debugging.
   // "go.languageServerFlags": [
   //   "-rpc.trace", // For more detailed debug logging.
