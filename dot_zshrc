@@ -131,14 +131,19 @@ export DOCKER_BUILDKIT=1
 
 
 alias java-decompile="docker run \
-	-ti \
-	--rm \
-	-v "$PWD/infiles:/infiles:Z,ro" \
-	-v "$PWD/libfiles:/libfiles:Z,ro" \
-	-v "$PWD/outfiles:/outfiles:Z,rw" \
-	ghcr.io/eikendev/java-decompiler:latest"
+    -ti \
+    --rm \
+    -v "$PWD/infiles:/infiles:Z,ro" \
+    -v "$PWD/libfiles:/libfiles:Z,ro" \
+    -v "$PWD/outfiles:/outfiles:Z,rw" \
+    ghcr.io/eikendev/java-decompiler:latest"
 
 alias docker="sudo docker"
+alias mc="docker run \
+    -ti \
+    --rm \
+    -v "$HOME/.mc:/root/.mc:Z,rw" \
+    minio/mc"
 alias ckc="kubectx"
 alias ckn="kubens"
 alias shh='ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'
