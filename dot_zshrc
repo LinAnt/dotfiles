@@ -125,7 +125,6 @@ fi
 [ -f "/usr/bin/nvim" ] && alias vim="nvim" && alias vimdiff='nvim -d'
 
 
-
 export PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/go/bin:$PATH"
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
@@ -144,11 +143,6 @@ alias java-decompile="docker run \
     ghcr.io/eikendev/java-decompiler:latest"
 
 alias docker="sudo docker"
-alias mc="docker run \
-    -ti \
-    --rm \
-    -v "$HOME/.mc:/root/.mc:Z,rw" \
-    minio/mc"
 alias ckc="kubectx"
 alias ckn="kubens"
 alias shh='ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'
