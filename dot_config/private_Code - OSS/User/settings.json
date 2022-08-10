@@ -1,22 +1,22 @@
 {
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
-    "window.zoomLevel": 2,
-    "editor.lineNumbers": "relative",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+  "window.zoomLevel": 3,
+  "editor.lineNumbers": "relative",
 
-    "[go]": {
+  "[go]": {
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true,
+      "source.organizeImports": true
     },
     // Optional: Disable snippets, as they conflict with completion ranking.
-    "editor.snippetSuggestions": "none",
+    "editor.snippetSuggestions": "none"
   },
   "[go.mod]": {
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true,
-    },
+      "source.organizeImports": true
+    }
   },
   "gopls": {
     "usePlaceholders": true, // Add parameter placeholders when completing a function.
@@ -24,7 +24,7 @@
     "formatting.local": "github.com/Walkbase",
     "ui.semanticTokens": true
   },
-  "editor.fontFamily": "'GoMono Nerd Font Mono'",
+  "editor.fontFamily": "'Monego Nerd Font Fix'",
   "security.workspace.trust.untrustedFiles": "open",
   "redhat.telemetry.enabled": true,
   "vim.useCtrlKeys": false,
@@ -41,7 +41,7 @@
   },
   "go.lintTool": "golangci-lint",
   "explorer.confirmDelete": false,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": true
   // Debugging.
   // "go.languageServerFlags": [
   //   "-rpc.trace", // For more detailed debug logging.
