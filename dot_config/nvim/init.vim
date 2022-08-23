@@ -12,6 +12,7 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'vim-airline/vim-airline'
   Plug 'sheerun/vim-polyglot'
   Plug 'rakr/vim-one'
+  Plug 'flazz/vim-colorschemes'
   Plug 'vim-airline/vim-airline-themes'
   Plug 'ryanoasis/vim-devicons'
   Plug 'takac/vim-hardtime'
@@ -29,7 +30,7 @@ set termguicolors
 set list listchars=tab:»\ ,trail:·
 
 syntax on
-colorscheme one
+colorscheme argonaut
 set background=dark
 set encoding=UTF-8
 " Line numbers
