@@ -22,3 +22,6 @@
 	format = ssh
 [gpg "ssh"]
 	allowedSignersFile = /home/linant/.ssh/allowed_signers
+[push]
+	default = current
+	autoSetupRemote = true
